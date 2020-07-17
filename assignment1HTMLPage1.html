@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>exploringconsole</title>
+    <script>
+        console.clear();
+        console.log("sameer");
+        console.assert(true, "this is error");
+        console.assert(false, "this is error");
+        console.warn("sometingwrong");
+        console.info("wesolved");
+        console.time('timetaken');
+
+      
+        console.group('cars');
+        console.log('amaze');
+        console.log('ferrai');
+        console.group('parts');
+        console.log('wheels');
+        console.log('mirrors');
+        console.groupEnd();
+        console.log('city');
+        console.groupEnd();
+        console.timeEnd('timetaken');
+        const p = [
+             {
+            name: "sameer",
+            age: "19",
+            occupation: "student"
+            },
+
+        {
+            name: "mounisha",
+                age: "21",
+                    occupation:"job"
+
+        }
+        ]
+        console.table(p);
+        console.table(p, ['name']);
+        
+        
+       
+
+
+    </script>
+</head>
+<body>
+    <ul>
+        console.clear();
+        console.log("sameer");
+        console.assert(true, "this is error");
+        console.assert(false, "this is error");
+        console.warn("sometingwrong");
+        console.info("wesolved");
+        console.time('timetaken');
+
+
+        console.group('cars');
+        console.log('amaze');
+        console.log('ferrai');
+        console.group('parts');
+        console.log('wheels');
+        console.log('mirrors');
+        console.groupEnd();
+        console.log('city');
+        console.groupEnd();
+        console.timeEnd('timetaken');
+        const p = [
+        {
+        name: "sameer",
+        age: "19",
+        occupation: "student"
+        },
+
+        {
+        name: "mounisha",
+        age: "21",
+        occupation:"job"
+
+        }
+        ]
+        console.table(p);
+        console.table(p, ['name']);
+    </ul>
+</body>
+</html>
